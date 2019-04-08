@@ -1,0 +1,6 @@
+framework module BSBase {
+  umbrella header "BSBase-umbrella.h"
+
+  export *
+  module * { export * }
+}

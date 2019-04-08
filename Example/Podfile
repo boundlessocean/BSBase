@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'BSBase_Example' do
+  pod 'BSBase', :path => '../'
+  pod 'Alamofire'
+  
+  target 'BSBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
